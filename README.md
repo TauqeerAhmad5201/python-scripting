@@ -6,3 +6,5 @@ python-scripting
 https://www.redhat.com/sysadmin/python-scripting-intro
 
 # Python script to test speed 
+
+chmod +x {script_name}.py
