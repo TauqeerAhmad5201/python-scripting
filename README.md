@@ -38,6 +38,8 @@ print(f"Ping Speed: {ping}")
 
 chmod +x {script_name}.py
 
+` could have written as u+x -> denoting the changes for you/yourself`
+
 ### Running a script 
 
 ./{script_name}.py
