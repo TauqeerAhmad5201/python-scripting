@@ -67,3 +67,16 @@ s.sendmail("sender_email_id", "receiver_email_id", message)
 # terminating the session
 s.quit()
 ```
+
+### 
+
+1. Requests
+
+Python Requests allows you to send HTTP requests. Using this module, we can post or retrieve the data from a Rest API. There are many methods included in this module, like:
+
+    GET
+    POST
+    PUT
+    DELETE
+
+All these methods perform particular actions like adding a comment (PUT), retrieving data (GET), or deleting a user field (DELETE).
