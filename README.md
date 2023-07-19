@@ -102,7 +102,7 @@ print(meta.producer)
 print(meta.subject)
 print(meta.title)
 ```
-
+# Python script to combine PDFs
 ```
 #!/usr/bin/python3
 
