@@ -80,3 +80,25 @@ Python Requests allows you to send HTTP requests. Using this module, we can post
     DELETE
 
 All these methods perform particular actions like adding a comment (PUT), retrieving data (GET), or deleting a user field (DELETE).
+
+
+
+
+```
+#!/usr/bin/python3
+
+from PyPDF2 import PdfReader
+
+reader = PdfReader("statement.pdf")
+
+meta = reader.metadata
+
+print(len(reader.pages))
+
+# All of the following could be None!
+print(meta.author)
+print(meta.creator)
+print(meta.producer)
+print(meta.subject)
+print(meta.title)
+```
