@@ -102,3 +102,17 @@ print(meta.producer)
 print(meta.subject)
 print(meta.title)
 ```
+
+```
+#!/usr/bin/python3
+
+from PyPDF2 import PdfWriter
+
+merger = PdfWriter()
+
+for pdf in ["page1.pdf", "page2.pdf", "page3.pdf"]:
+    merger.append(pdf)
+
+merger.write("merged-pdf.pdf")
+merger.close()
+```
