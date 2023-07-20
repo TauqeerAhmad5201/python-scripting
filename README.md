@@ -116,3 +116,22 @@ for pdf in ["page1.pdf", "page2.pdf", "page3.pdf"]:
 merger.write("merged-pdf.pdf")
 merger.close()
 ```
+
+```
+#!/usr/bin/python3
+
+from PyPDF2 import PdfReader
+
+reader = PdfReader("statement.pdf")
+
+meta = reader.metadata
+
+print(len(reader.pages))
+
+# All of the following could be None!
+print(meta.author)
+print(meta.creator)
+print(meta.producer)
+print(meta.subject)
+print(meta.title)
+```
