@@ -116,6 +116,7 @@ for pdf in ["page1.pdf", "page2.pdf", "page3.pdf"]:
 merger.write("merged-pdf.pdf")
 merger.close()
 ```
+# Python script to extract metadata
 
 ```
 #!/usr/bin/python3
