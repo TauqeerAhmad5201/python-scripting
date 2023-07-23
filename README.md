@@ -156,3 +156,7 @@ print(meta.producer)
 print(meta.subject)
 print(meta.title)
 ```
+## Extract Images
+```
+
+```
