@@ -173,7 +173,7 @@ for image_file_object in page.images:
 
 ```
 
-## 
+## Reading PDF Annotations
 
 ```
 from PyPDF2 import PdfReader
