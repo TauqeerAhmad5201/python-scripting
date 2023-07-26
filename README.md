@@ -158,7 +158,7 @@ print(meta.title)
 ```
 
 
-
+## Reading PDF Annotations
 ```
 from PyPDF2 import PdfReader
 
