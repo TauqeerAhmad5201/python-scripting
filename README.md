@@ -194,3 +194,18 @@ for image_file_object in page.images:
 
 ## Youtube video downloader 
 
+```
+#!/usr/bin/python3
+
+from pytube import YouTube
+
+link = input('Enter the URL of the video')
+yt = YouTube(link)
+
+print(yt.title)
+
+download = yt.streams.get_highest_resolution().download()
+
+print('Done!')
+```
+
