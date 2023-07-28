@@ -209,3 +209,10 @@ download = yt.streams.get_highest_resolution().download()
 print('Done!')
 ```
 ##  Pull live traffic data
+
+```
+pip or pip3 install requests
+
+#Which one you use (pip or pip3) depends on the version of Python and the package manager pip you're using
+```
+
