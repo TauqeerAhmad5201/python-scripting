@@ -211,6 +211,7 @@ print('Done!')
 ##  Pull live traffic data
 
 ```
+#!/usr/bin/python3
 pip or pip3 install requests
 
 #Which one you use (pip or pip3) depends on the version of Python and the package manager pip you're using
