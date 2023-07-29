@@ -230,7 +230,7 @@ usa_json = usa_req.json()
 
 print(usa_json)
 ```
-
+### Compile data from a webpage
 ```
 import requests
 
