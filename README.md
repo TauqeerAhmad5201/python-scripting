@@ -231,3 +231,11 @@ usa_json = usa_req.json()
 print(usa_json)
 ```
 
+```
+import requests
+
+response = requests.get('https://www.bbc.com/news')
+
+print(response.status_code)
+```
+
