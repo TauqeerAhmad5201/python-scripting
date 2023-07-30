@@ -248,4 +248,10 @@ print(soup)
 
 ```
 pip or pip3 install beautifulsoup4
+
+import requests
+
+response = requests.get('https://www.bbc.com/news')
+
+print(response.status_code)
 ```
