@@ -245,3 +245,7 @@ soup = BeautifulSoup(response.content, 'html.parser')
 print(soup)
 ```
 ### Compile data from a webpage
+
+```
+pip or pip3 install beautifulsoup4
+```
