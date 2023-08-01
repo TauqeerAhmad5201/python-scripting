@@ -270,9 +270,7 @@ print(soup.find_all('h2'))
 
 from PIL import Image, ImageFilter
 
-with Image.open("nature.jpg") as im:
-    #show the original image
-    # im.show("Original Image")
+
  
     #convert into grayscale
     # grayscaleImg = im.convert("L")
