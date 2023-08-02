@@ -226,24 +226,7 @@ usa_req = requests.get(url_api)
 usa_json = usa_req.json()
 
 
-# Do something with the json response to prove it works. 
 
-print(usa_json)
-```
-### Compile data from a webpage
-```
-import requests
-
-response = requests.get('https://www.bbc.com/news')
-
-print(response.status_code)
-
-from bs4 import BeautifulSoup                          
-
-soup = BeautifulSoup(response.content, 'html.parser') 
-
-print(soup)
-```
 ### Compile data from a webpage
 
 ```
