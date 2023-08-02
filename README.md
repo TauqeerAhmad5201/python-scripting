@@ -136,7 +136,24 @@ print(meta.producer)
 print(meta.subject)
 print(meta.title)
 ```
+# Do something with the json response to prove it works. 
 
+print(usa_json)
+```
+### Compile data from a webpage
+```
+import requests
+
+response = requests.get('https://www.bbc.com/news')
+
+print(response.status_code)
+
+from bs4 import BeautifulSoup                          
+
+soup = BeautifulSoup(response.content, 'html.parser') 
+
+print(soup)
+```
 ### looking for a setup
 ```
 #!/usr/bin/python3
