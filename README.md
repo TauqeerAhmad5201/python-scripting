@@ -268,3 +268,30 @@ print(soup.find_all('h2'))
 
     im.filter(ImageFilter.BoxBlur(5)).show()
 ```
+### image modification
+
+```
+#!/usr/bin/python3
+
+from PIL import Image, ImageFilter
+
+with Image.open("nature.jpg") as im:
+    #show the original image
+    # im.show("Original Image")
+ 
+    #convert into grayscale
+    # grayscaleImg = im.convert("L")
+ 
+    # #show the grayscale image
+    # grayscaleImg.show()
+
+    # rotated_img = im.rotate(45)
+
+    # rotated_img.show()
+
+    print(im.format)
+    print(im.size)
+
+    cropped_img = im.crop((300, 150, 700, 1000))
+    print(cropped_img.size)
+
