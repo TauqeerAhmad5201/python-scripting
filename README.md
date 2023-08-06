@@ -267,8 +267,11 @@ print(soup.find_all('h2'))
 
     im.filter(ImageFilter.BoxBlur(5)).show()
 ```
+
+```
 ### image modification
 
+```
 #!/usr/bin/python3
 
 from PIL import Image, ImageFilter
@@ -293,4 +296,4 @@ with Image.open("nature.jpg") as im:
     cropped_img = im.crop((300, 150, 700, 1000))
     print(cropped_img.size)
 
-
+```
