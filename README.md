@@ -83,7 +83,7 @@ All these methods perform particular actions like adding a comment (PUT), retrie
 
 
 
-### script to read metadata of a PDF
+
 ```
 #!/usr/bin/python3
 
