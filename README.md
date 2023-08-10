@@ -273,6 +273,7 @@ print(soup.find_all('h2'))
     print(cropped_img.size)
 
 ```
+
 ### image modification
 
 ```
@@ -297,6 +298,6 @@ with Image.open("nature.jpg") as im:
     print(im.format)
     print(im.size)
 
-
+```
 
 
