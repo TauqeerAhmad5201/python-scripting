@@ -13,6 +13,7 @@ https://www.redhat.com/sysadmin/python-scripting-intro
 
 ### Here are some examples of Python scripts that you can use to analyze data:
 
+- A script that cleans and analyzes data from a survey.
 
 # Python script to test speed 
 
