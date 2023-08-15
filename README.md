@@ -310,4 +310,6 @@ with Image.open("nature.jpg") as im:
 
 ```
 
+### Script to filter in excel 
+
 
