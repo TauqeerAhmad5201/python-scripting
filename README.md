@@ -311,5 +311,45 @@ with Image.open("nature.jpg") as im:
 ```
 
 ### Script to filter in excel 
+```
+import openpyxl
+
+def filter_excel_sheet(excel_file, sheet_name, column_name, keyword):
+  """Filters an Excel sheet by a keyword in a particular column.
+
+  Args:
+    excel_file: The path to the Excel file.
+    sheet_name: The name of the sheet to filter.
+    column_name: The name of the column to filter by.
+    keyword: The keyword to filter for.
+
+  Returns:
+    The filtered Excel sheet.
+  """
+
+  workbook = openpyxl.load_workbook(excel_file)
+  sheet = workbook[sheet_name]
+
+  # Create a filter object for the column.
+  filter_obj = sheet[column_name].autofilter
+
+  # Set the filter criteria to the keyword.
+  filter_obj.criteria1 = keyword
+
+  # Apply the filter.
+  filter_obj.apply()
+
+  # Return the filtered sheet.
+  return workbook[sheet_name]
 
 
+if __name__ == "__main__":
+  excel_file = "my_data.xlsx"
+  sheet_name = "Sheet1"
+  column_name = "Skills"
+  keyword = "Basic-moderate"
+
+  filtered_sheet = filter_excel_sheet(excel_file, sheet_name, column_name, keyword)
+
+  print(filtered_sheet)
+```
