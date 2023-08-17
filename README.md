@@ -11,9 +11,7 @@ https://www.redhat.com/sysadmin/python-scripting-intro
 - It is easy to learn and use. Python has a simple syntax that is easy to understand, even for beginners.
 - It is open source and free to use. This makes it a cost-effective choice for many organizations.
 
-### Here are some examples of Python scripts that you can use to analyze data:
 
-- A script that cleans and analyzes data from a survey.
 
 # Python script to test speed 
 
