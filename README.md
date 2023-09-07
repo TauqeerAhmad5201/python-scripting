@@ -355,15 +355,7 @@ if __name__ == "__main__":
 ```
 ### Python script to generate Password
 ```
-import random
 
-def generate_password():
-  """Generates a random password."""
-  characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-  password = ""
-  for i in range(10):
-    password += random.choice(characters)
-  return password
 
 if __name__ == "__main__":
   print(generate_password())
