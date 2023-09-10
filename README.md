@@ -15,7 +15,7 @@ https://www.redhat.com/sysadmin/python-scripting-intro
 
 - A script that cleans and analyzes data from a survey.
 
-# Python script to test speed 
+
 
 ```
 # Internet Speed tester
