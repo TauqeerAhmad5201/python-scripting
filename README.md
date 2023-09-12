@@ -283,7 +283,31 @@ print(soup.find_all('h2'))
     print(cropped_img.size)
 
 ```
+### image modification
 
+```
+#!/usr/bin/python3
+
+from PIL import Image, ImageFilter
+
+with Image.open("nature.jpg") as im:
+    #show the original image
+    # im.show("Original Image")
+ 
+    #convert into grayscale
+    # grayscaleImg = im.convert("L")
+ 
+    # #show the grayscale image
+    # grayscaleImg.show()
+
+    # rotated_img = im.rotate(45)
+
+    # rotated_img.show()
+
+    print(im.format)
+    print(im.size)
+
+```
 
 
 ### Script to filter in excel 
