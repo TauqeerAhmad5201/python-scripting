@@ -5,7 +5,7 @@ python-scripting
 
 https://www.redhat.com/sysadmin/python-scripting-intro
 
-
+### Python scripting is used in DevOps for a variety of reasons, including:
 
 - It is a powerful and versatile language. Python can be used to automate a wide range of tasks, from simple to complex.
 - It is easy to learn and use. Python has a simple syntax that is easy to understand, even for beginners.
