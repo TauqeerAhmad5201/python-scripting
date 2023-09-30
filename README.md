@@ -356,7 +356,9 @@ if __name__ == "__main__":
 ```
 ### Python script to generate Password
 ```
-
+if __name__ == "__main__":
+  print(generate_password())
+```
 
 import random
 
