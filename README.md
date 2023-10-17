@@ -360,7 +360,7 @@ if __name__ == "__main__":
   print(generate_password())
 ```
 
-import random
+imp random
 
 def generate_password():
   """Generates a random password."""
