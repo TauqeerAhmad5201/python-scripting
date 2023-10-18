@@ -201,8 +201,7 @@ for page in reader.pages:
 ```
 
 
-
-
+## Extract Images
 
 ```
 from PyPDF2 import PdfReader
