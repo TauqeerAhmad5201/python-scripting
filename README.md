@@ -55,7 +55,7 @@ chmod +x {script_name}.py
 
 ./{script_name}.py
 
-
+# Python script to send email
 ```
 import smtplib
  
