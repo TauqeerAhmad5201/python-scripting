@@ -45,7 +45,7 @@ print(f"Ping Speed: {ping}")
 
 ````
 
-### Changing the executable permission of the script file
+# Changing the executable permission of the script file
 
 chmod +x {script_name}.py
 
