@@ -9,7 +9,7 @@ https://www.redhat.com/sysadmin/python-scripting-intro
 
 - It is a powerful and versatile language. Python can be used to automate a wide range of tasks, from simple to complex.
 - It is easy to learn and use. Python has a simple syntax that is easy to understand, even for beginners.
-- It is open source and free to use. This makes it a cost-effective choice for many organizations.
+- It is open source and . This makes it a cost-effective choice for many organizations.
 
 
 ### Here are some examples of Python scripts that you can use to analyze data:
