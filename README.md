@@ -12,7 +12,7 @@ https://www.redhat.com/sysadmin/python-scripting-intro
 - It is open source and free to use. This makes it a cost-effective choice for many organizations.
 
 
-### Here are some examples of Python  you can use to analyze data:
+### Here are some examples of Python scripts that you can use to analyze data:
 
 - A script that cleans and analyzes data from a survey.
 
